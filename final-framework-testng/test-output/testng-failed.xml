@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.training.functional.tests.TC_30_Retail_LogoutApp">
+      <class name="com.training.functional.tests.RTTC_056_DiscountOnExistingProduct_Test">
         <methods>
-          <include name="tearDown"/>
-          <include name="logout"/>
           <include name="setUpBeforeClass"/>
+          <include name="ProductTest"/>
         </methods>
-      </class> <!-- com.training.functional.tests.TC_30_Retail_LogoutApp -->
+      </class> <!-- com.training.functional.tests.RTTC_056_DiscountOnExistingProduct_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -2,32 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="48146" started-at="2019-01-26T14:59:02Z" finished-at="2019-01-26T14:59:50Z">
+  <suite name="Default suite" duration-ms="55852" started-at="2019-02-01T10:00:05Z" finished-at="2019-02-01T10:01:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="48146" started-at="2019-01-26T14:59:02Z" finished-at="2019-01-26T14:59:50Z">
-      <class name="com.training.functional.tests.TC_30_Retail_LogoutApp">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.functional.tests.TC_30_Retail_LogoutApp@42d80b78]" name="setUpBeforeClass" is-config="true" duration-ms="33" started-at="2019-01-26T14:59:02Z" finished-at="2019-01-26T14:59:02Z">
+    <test name="Default test" duration-ms="55852" started-at="2019-02-01T10:00:05Z" finished-at="2019-02-01T10:01:01Z">
+      <class name="com.training.functional.tests.RTTC_056_DiscountOnExistingProduct_Test">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.functional.tests.RTTC_056_DiscountOnExistingProduct_Test@1e88b3c]" name="setUpBeforeClass" is-config="true" duration-ms="16" started-at="2019-02-01T10:00:05Z" finished-at="2019-02-01T10:00:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.functional.tests.TC_30_Retail_LogoutApp@42d80b78]" name="setUp" duration-ms="11368" started-at="2019-01-26T14:59:02Z" finished-at="2019-01-26T14:59:13Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.functional.tests.RTTC_056_DiscountOnExistingProduct_Test@1e88b3c]" name="setUp" duration-ms="14471" started-at="2019-02-01T10:00:05Z" finished-at="2019-02-01T10:00:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validLoginTest()[pri:1, instance:com.training.functional.tests.TC_30_Retail_LogoutApp@42d80b78]" name="validLoginTest" duration-ms="32227" started-at="2019-01-26T14:59:13Z" finished-at="2019-01-26T14:59:45Z">
+        <test-method status="PASS" signature="validLoginTest()[pri:1, instance:com.training.functional.tests.RTTC_056_DiscountOnExistingProduct_Test@1e88b3c]" name="validLoginTest" duration-ms="11147" started-at="2019-02-01T10:00:20Z" finished-at="2019-02-01T10:00:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method status="PASS" signature="logout()[pri:2, instance:com.training.functional.tests.TC_30_Retail_LogoutApp@42d80b78]" name="logout" duration-ms="3546" started-at="2019-01-26T14:59:45Z" finished-at="2019-01-26T14:59:49Z">
+        <test-method status="PASS" signature="ProductTest()[pri:2, instance:com.training.functional.tests.RTTC_056_DiscountOnExistingProduct_Test@1e88b3c]" name="ProductTest" duration-ms="30188" started-at="2019-02-01T10:00:31Z" finished-at="2019-02-01T10:01:01Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.functional.tests.TC_30_Retail_LogoutApp@42d80b78]" name="tearDown" is-config="true" duration-ms="922" started-at="2019-01-26T14:59:49Z" finished-at="2019-01-26T14:59:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.training.functional.tests.TC_30_Retail_LogoutApp -->
+        </test-method> <!-- ProductTest -->
+      </class> <!-- com.training.functional.tests.RTTC_056_DiscountOnExistingProduct_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

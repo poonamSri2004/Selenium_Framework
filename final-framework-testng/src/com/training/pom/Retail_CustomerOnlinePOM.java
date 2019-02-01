@@ -50,8 +50,11 @@ public class Retail_CustomerOnlinePOM {
 			return this.customervalue.getText();	
 		}
 	  public void reportmenu() {
-			//this.report.clear();
+			
 			this.report.click();
+			
+	  }
+			//this.report.clear();
 			//Actions action = new Actions(driver);
 			//action.moveToElement(customer).build().perform();
 		
@@ -62,7 +65,7 @@ public class Retail_CustomerOnlinePOM {
 		this.report.click();
 		*/
 		
-}
+
 		
 		public void reportcustomer() {
 			//this.report.clear();
