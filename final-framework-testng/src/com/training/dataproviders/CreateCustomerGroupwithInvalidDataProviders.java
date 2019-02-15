@@ -33,13 +33,13 @@ public class CreateCustomerGroupwithInvalidDataProviders {
 	
 	@DataProvider(name = "Testdata")
 	public Object[][] getExcelData(){
-		String fileName ="C:\\Users\\POONAMSAXENA\\Desktop\\Selenium\\Retail Testdata\\Testdata.xlsx"; 
+		String fileName ="./resources/Testdata.xlsx"; 
 		return new ApachePOIExcelRead3().getExcelContent(fileName); 
 	}
 	
 	@DataProvider(name = "xls-inputs")
 	public Object[][] getXLSData(){
 		// ensure you will have the title as first line in the file 
-		return new ReadExcel().getExcelData("C:\\Users\\POONAMSAXENA\\Desktop\\Selenium\\Retail Testdata\\Testdata.xlsx", "RTTD_019"); 
+		return new ReadExcel().getExcelData("./resources/Testdata.xlsx", "RTTD_019"); 
 	}
 }

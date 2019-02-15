@@ -32,13 +32,13 @@ public class CustomerGroupDataProviders {
 	
 	@DataProvider(name = "Testdata")
 	public Object[][] getExcelData(){
-		String fileName ="C:\\Users\\POONAMSAXENA\\Desktop\\Selenium\\Retail Testdata\\Testdata.xlsx"; 
+		String fileName ="./resources/Testdata.xlsx"; 
 		return new ApachePOIExcelRead().getExcelContent(fileName); 
 	}
 	
 	@DataProvider(name = "xls-inputs")
 	public Object[][] getXLSData(){
 		// ensure you will have the title as first line in the file 
-		return new ReadExcel().getExcelData("C:\\Users\\POONAMSAXENA\\Desktop\\Selenium\\Retail Testdata\\Testdata.xlsx", "Sheet1"); 
+		return new ReadExcel().getExcelData("./resources/Testdata.xlsx", "Sheet1"); 
 	}
 }
