@@ -59,10 +59,6 @@ public class TC_30_Retail_LogoutApp {
 		
 		System.out.println(driver.getTitle());
 	}
-
-	
-	
-
 	
 
 	@Test(priority = 1)
@@ -77,7 +73,6 @@ public class TC_30_Retail_LogoutApp {
 		logoutappPOM.userlist1();
 		//retail_logout.clickLogoutBtn(); 
 		screenShot.captureScreenShot("First");
-		
 		
 		
 	}

@@ -3,12 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.training.functional.tests.RTTC_056_DiscountOnExistingProduct_Test">
+      <class name="com.training.functional.tests.RTTC_089_CustomerCreateOrderTest">
         <methods>
-          <include name="setUpBeforeClass"/>
           <include name="ProductTest"/>
+          <include name="setUpBeforeClass"/>
+          <include name="saleTest"/>
+          <include name="assertTest"/>
         </methods>
-      </class> <!-- com.training.functional.tests.RTTC_056_DiscountOnExistingProduct_Test -->
+      </class> <!-- com.training.functional.tests.RTTC_089_CustomerCreateOrderTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

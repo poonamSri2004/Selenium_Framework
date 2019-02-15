@@ -28,7 +28,19 @@ import com.training.utility.DriverFactory;
 	import com.training.utility.DriverNames;
 
 
-public class RTTC_060_Retail_Emailsend_Test { 
+	/*
+	 * Author 					: Poonam Saxena
+	 * Test Case ID 			: RTTC_060
+	 * Test Case Description 	: TO verify whether application allows admin to add affiliate
+	 * Precondition				: 1. user should launch the application by entering valid URL
+	 *
+	 *							  2. Login as admin
+	 *
+	 *						
+	 */
+	
+	
+	public class RTTC_060_Retail_Emailsend_Test { 
 		
 
 		private WebDriver driver;

@@ -20,6 +20,9 @@ public class Report_CustomerPOM {
 	@FindBy(xpath="//a[@class='parent'][contains(text(),'Customers')]")
 	private WebElement customer;
 	
+	@FindBy(xpath="//a[contains(text(),'Sales')]")
+	private WebElement sales;
+	
 	@FindBy(xpath="//a[contains(text(),'Customer Activity')]")
 	private WebElement customerActivity;
 	
@@ -56,6 +59,25 @@ public class Report_CustomerPOM {
 		*/
 		
 }
+		public void reportsales() {
+			//this.report.clear();
+			//this.report.click();
+			Actions action = new Actions(driver);
+			action.moveToElement(sales).build().perform();
+			
+		
+}
+		
+		@FindBy(xpath="//*[@id=\"menu-report\"]/ul/li[1]/ul/li[1]/a")
+		private WebElement reportorder;
+		public void reportOrder() {
+			//this.report.clear();
+			this.sales.click();
+			Actions action = new Actions(driver);
+			action.moveToElement(reportorder).click().build().perform();
+		
+}
+		
 		
 		public void reportcustomer() {
 			//this.report.clear();
@@ -65,7 +87,10 @@ public class Report_CustomerPOM {
 			
 		
 }
-
+		
+		
+		
+		
 		public void reportActivity() {
 			//this.report.clear();
 			this.customer.click();

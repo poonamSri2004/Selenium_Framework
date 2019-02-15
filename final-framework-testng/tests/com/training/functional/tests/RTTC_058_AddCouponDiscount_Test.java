@@ -24,6 +24,18 @@ import org.testng.annotations.AfterMethod;
 	import com.training.utility.DriverFactory;
 	import com.training.utility.DriverNames;
 
+	/*
+	 * Author 					: Poonam Saxena
+	 * Test Case ID 			: RTTC_058
+	 * Test Case Description 	: TO verify whether application allows admin to add discount to the product
+	 * Precondition				: 1. user should launch the application by entering valid URL
+	 *
+	 *							  2. Login as admin
+	 *							  3. Product is already added by the admin
+	 *						
+	 */
+	
+	
 	public class RTTC_058_AddCouponDiscount_Test {
 
 		private WebDriver driver;

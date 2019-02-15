@@ -1,7 +1,6 @@
 package com.training.pom;
 
 
-	
 
 	import java.awt.AWTException;
 	import java.awt.Robot;
@@ -182,6 +181,26 @@ package com.training.pom;
 			Actions action = new Actions(driver);
 			action.moveToElement(calNextvalue).click().build().perform();
 			
+			}
+			
+			//path for reward point
+			@FindBy(xpath="/html/body/div[1]/div/div[2]/div/div[2]/form/ul/li[10]/a")
+			private WebElement rewardpoint;
+			public void rewardpoint() throws AWTException{
+				Robot robot = new Robot();
+				robot.keyPress(KeyEvent.VK_UP);
+				robot.keyRelease(KeyEvent.VK_UP);
+				this.rewardpoint.click();
+				
+				}		
+			
+			@FindBy(id="input-points")
+			private WebElement points;
+			
+			public void points(String points) {
+				
+				this.points.sendKeys(points);
+						
 			}
 			
 		//Xpath for save button

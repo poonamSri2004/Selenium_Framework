@@ -25,6 +25,18 @@ import com.training.pom.RTTC_056_DiscountOnExistingProductPOM;
 import com.training.utility.DriverFactory;
 	import com.training.utility.DriverNames;
 
+	/*
+	 * Author 					: Poonam Saxena
+	 * Test Case ID 			: RTTC_056
+	 * Test Case Description 	: To verify whether application allows admin to add discount to existing product
+	 * Precondition				: 1. user should launch the application by entering valid URL
+	 *
+	 *							  2. Login as admin
+	 *
+	 *						
+	 */
+	
+	
 	public class RTTC_056_DiscountOnExistingProduct_Test {
 		
 
@@ -97,7 +109,7 @@ import com.training.utility.DriverFactory;
 			
 			}
 		
-/*		
+	
 		@Test(priority=3)
 			//assertion for editing existing product discount 
 			public void assertTest() {
@@ -110,7 +122,7 @@ import com.training.utility.DriverFactory;
 			
 			screenShot.captureScreenShot("ExistingProductDiscount");
 		}
-*/
+
 		}
 	
 
